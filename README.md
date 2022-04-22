@@ -4,7 +4,7 @@ Javascript/React frontend and Java/Spring+MySQL backend project implementing acc
 # Running the Application
 1) Download the source code.
 2) Run the server by:<br>
-    i) Opening an IDE, put in your email credentials for server/src/main/java/io/adingeist/userservice/email/SendEmail.java<br>
+    i) Opening an IDE and put in your email credentials for server/src/main/java/io/adingeist/userservice/email/SendEmail.java<br>
 
 3) Run the frontend server by:<br>
     i) Put your IP or the IP address running the Java server in the request line at frontend/src/api/connection.js

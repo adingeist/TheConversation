@@ -3,13 +3,13 @@ Javascript/React frontend and Java/Spring+MySQL backend project implementing acc
 
 # Running the Application
 1) Download the source code.
-2) Running a MySQL database and execute:
-mysql> create database userservice; -- Creates the new database
-mysql> create user 'springuser'@'%' identified by 'ThePassword'; -- Creates the user
-4) Run the server by:<br>
+2) Running a MySQL database and execute:<br>
+mysql> create database userservice; -- Creates the new database<br>
+mysql> create user 'springuser'@'%' identified by 'ThePassword'; -- Creates the user<br>
+3) Run the server by:<br>
     i) Opening an IDE and put in your email credentials for server/src/main/java/io/adingeist/userservice/email/SendEmail.java<br>
 
-3) Run the frontend server by:<br>
+4) Run the frontend server by:<br>
     i) Put your IP or the IP address running the Java server in the request line at frontend/src/api/connection.js
     ii) Run ```npm i``` to get the dependencies.
     iii) Run ```npm start``` to run the site.

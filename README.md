@@ -6,7 +6,7 @@ Javascript/React frontend and Java/Spring+MySQL backend project implementing acc
 2) Running a MySQL database and execute:<br>
 mysql> create database userservice; -- Creates the new database<br>
 mysql> create user 'springuser'@'%' identified by 'ThePassword'; -- Creates the user<br>
-mysql> grant all on db_example.* to 'springuser'@'%'; -- Gives all privileges to the new user on the newly created database<br>
+mysql> grant all on userservice.* to 'springuser'@'%'; -- Gives all privileges to the new user on the newly created database<br>
 3) Run the server by:<br>
     i) Opening an IDE and put in your email credentials for server/src/main/java/io/adingeist/userservice/email/SendEmail.java<br>
 
